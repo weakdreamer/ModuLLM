@@ -1,0 +1,45 @@
+{
+  "models": {
+    "硅基-DS-R1": {
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key": "",
+      "model": "deepseek-ai/DeepSeek-R1"
+    },
+    "硅基-DS-V3": {
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key": "",
+      "model": "deepseek-ai/DeepSeek-V3.2-Exp"
+    },
+    "deepseek-V3": {
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key": "",
+      "model": "deepseek-chat"
+    },
+    "gemini-2.5-flash": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "api_key": "",
+      "model": "gemini-2.5-flash"
+    },
+    "gemini-3-flash-preview": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "api_key": "",
+      "model": "gemini-3-flash-preview"
+    },
+    "grok4.1": {
+      "base_url": "https://api.x.ai/v1",
+      "api_key": "",
+      "model": "grok-4-1-fast-reasoning"
+    }
+  },
+  "current_model": "硅基-DS-V3",
+  "max_history_messages": 0,
+  "timeout": 30,
+  "input_height": 9,
+  "window_width": 1432,
+  "window_height": 762,
+  "theme": "light",
+  "comm_enabled": false,
+  "comm_server_url": "ws://localhost:8765",
+  "comm_auth_key": "",
+  "comm_use_remote_model": false
+}
